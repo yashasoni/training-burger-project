@@ -16,7 +16,7 @@ import * as actions from '../../store/actions/index';
 //     cheese: 1.3,
 //     meat: 0.7   
 // };
-class BurgerBuilder extends Component{
+export class BurgerBuilder extends Component{
     state={
         totalPrice: 4,
         purchasing: false
